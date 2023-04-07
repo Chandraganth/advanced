@@ -1,0 +1,44 @@
+Q1. What is the purpose of Python's OOP?
+              
+              Python is a versatile programming language that supports various programming styles,
+        including object-oriented programming (OOP) through the use of objects and classes.
+              
+              Object-oriented programming is a programming paradigm that provides a means of structuring programs 
+     so that properties and behaviors are bundled into individual objects.
+
+Q2. Where does an inheritance search look for an attribute?
+
+An inheritance search looks for an attribute first in the instance object  then in the class the instance was created from, then in all higher superclasses, progressing from left to right.
+The search stops at the first place the attribute is found.
+
+
+
+Q3. How do you distinguish between a class object and an instance object?
+
+Every object has a type and the object types are created using classes. Instance is an object that belongs to a class. For instance, list is a class in Python. When we create a list, we have an instance of the list class
+
+
+Q4. What makes the first argument in a class’s method function special?
+
+The calling process is but the receiving process is not. This is the reason the first parameter of a function in class must be the object itself
+
+
+Q5. What is the purpose of the __init__ method?
+
+it let's the class initialize the object attributes
+it is used within class
+
+
+Q6. What is the process for creating a class instance?
+
+ call the class using class name and pass the arguments its __init__ method accepts
+ 
+
+Q7. What is the process for creating a class?
+ 
+ create class
+ - class name
+
+Q8. How would you define the superclasses of a class?
+
+the class from which the subclass is derived is called superclass
