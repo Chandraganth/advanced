@@ -1,0 +1,19 @@
+1. What is the concept of an abstract superclass?
+
+An abstract class in Python is created to declare a set of methods that must be created in any child class built on top of this abstract class.
+an abstract method is one that doesn't have any implementation
+
+2. What happens when a class statement&#39;s top level contains a basic assignment statement?
+assigns the single resulting object to each of the target lists, from left to right
+
+3. Why does a class need to manually call a superclass __init__ method?
+
+It's because we  need to define something that is not done in the base-class __init__  
+and the only possibility to obtain that is to put its execution in a derived-class' __init__ function
+
+4. How can you augment, instead of completely replacing, an inherited method?
+
+5. How is the local scope of a class different from that of a function?
+
+Global scope- The names that you define in this scope are available to all your code. 
+Local scope : define in this scope are only available or visible to the code within the scope
