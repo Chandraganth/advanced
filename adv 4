@@ -1,0 +1,19 @@
+Q1. Which two operator overloading methods can you use in your classes to support iteration?
+ 
+Addition , logical operators
+
+Q2. In what contexts do the two operator overloading methods manage printing?
+
+Q3. In a class, how do you intercept slice operations?
+ the slice() returns a slice object
+
+Q4. In a class, how do you capture in-place addition?
+
+Python provides the operator x += y to add two objects in-place by calculating the sum x + y 
+and assigning the result to the first operands variable name x
+
+Q5. When is it appropriate to use operator overloading?
+
+When one or both operands are of a user-defined class or structure type
+operator overloading makes it easier to specify user-defined implementation for such operations.
+This makes user-defined types more similar to the basic primitive data types in terms of behaviour.
