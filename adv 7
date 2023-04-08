@@ -1,0 +1,23 @@
+Q1. What is the purpose of the try statement?
+               
+ The try statement allows  to define
+               a block of code to be tested for errors while it is being executed. 
+               
+Q2. What are the two most popular try statement variations?
+
+try/except , try/finally
+
+Q3. What is the purpose of the raise statement?
+
+it raises a specific exception when a condition is met or the code encounters an error
+
+Q4. What does the assert statement do, and what other statement is it like?
+
+assert keyword is used when debugging. for testing if a a condition in the code returns true
+if it is not true it will raise an assertion error
+
+Q5. What is the purpose of the with/as argument, and what other statement is it like?
+
+the with statement replaces a try-catch block with a concise shorthand.
+ it ensures closing resources right after processing them. A common example of using the with statement is reading or writing to a file.
+A function or class that supports the with statement is known as a context manager
