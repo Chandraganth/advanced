@@ -1,0 +1,27 @@
+Q1. What is the meaning of multiple inheritance?
+            
+            A class that can be derived from more than one superclass is calledd multiole inheritance
+            
+ class SuperClass1:
+ class SuperClass2:
+ class MultiDerived(SuperClass1, SuperClass2):
+
+Q2. What is the concept of delegation?
+
+it is a design pattern in which an object called delegatae is reponsible for 
+performing certain tasks on behalf of another object called delegator
+
+Q3. What is the concept of composition?
+  
+  it is concept that models has a relationship. it enables creating complex types by
+  combining objects of other types.this  means that a class composite can contain object of 
+  another class component
+  
+Q4. What are bound methods and how do we use them?
+  
+  A method that has an object associated with it.
+  methods that are bound to specific instance of a class
+
+Q5. What is the purpose of pseudoprivate attributes?
+             
+             to avoid name collision in the instance
