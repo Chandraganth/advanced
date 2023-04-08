@@ -1,0 +1,25 @@
+Describe three applications for exception processing.
+
+        try , except , finally and raise to raise  exception
+        
+        try: if there is a code that may raise an exception, it can placed in try block
+        except: after try we should include except statement followed by code
+                 it can have single as well as multiple exceptions
+                 
+Q2. What happens if you don't do something extra to treat an exception
+      
+      when we don't handle when a exception is occurred ,the program terminates abruptly
+      and the code past the line that caused the exception will not be executed
+
+Q3. What are your options for recovering from an exception in your script?
+            
+            by using the code inside the try block
+
+Q4. Describe two methods for triggering exceptions in your script.
+  by raise keyword we can raise an exception like any exception eg: division by zero
+
+Q5. Identify two methods for specifying actions to be executed at termination time, regardless of
+whether or not an exception exists.
+                      
+                      the code will be executed statement by statement, if no exception occurs
+                      the execution will reach the break statement and the loop will be left
